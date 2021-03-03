@@ -2,10 +2,13 @@
   "author": "zbryikt",
   "name": "@plotdb/tax-calc",
   "license": "MIT",
-  "main": "dist/tax.js",
   "description": "tax calculator",
   "version": "0.0.1",
   "homepage": "https://github.com/plotdb/tax-calc",
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/tax.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/plotdb/tax-calc"
