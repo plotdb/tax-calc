@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+rm -rf dist
+mkdir -p dist
+echo "building cli.js ..."
+echo "#!/usr/bin/env node" > ./dist/cli.js
+npx lsc -cbp src/cli.ls >> ./dist/cli.js
+chmod 755 ./dist/cli.js
+echo "building module file ..."
+npx lsc -cbp --no-header src/tax.ls > dist/tax.js

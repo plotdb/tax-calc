@@ -1,0 +1,25 @@
+{
+  "author": "zbryikt",
+  "name": "@plotdb/tax-calc",
+  "license": "MIT",
+  "main": "dist/tax.js",
+  "description": "tax calculator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/plotdb/tax-calc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plotdb/tax-calc"
+  },
+  "engines": {
+    "node": ">=10.14.1",
+    "npm": ">=6.4.1"
+  },
+  "dependencies": {
+    "livescript": "^1.6.0",
+    "uglify-js": "=3.2.0",
+    "yargs": "^16.1.0"
+  },
+  "bin": {
+    "tax-calc": "./dist/cli.js"
+  }
+}
